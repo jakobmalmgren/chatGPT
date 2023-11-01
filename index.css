@@ -1,0 +1,104 @@
+* {
+  color: white;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 200px 0;
+  color: #4e5b3f;
+}
+button {
+  cursor: pointer;
+}
+.side-bar {
+  background-color: rgb(230, 223, 223);
+  width: 244px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+.info {
+  color: #4e5b3f;
+  font-size: 11px;
+  padding: 10px;
+}
+input {
+  border: none;
+
+  background-color: #4e5b3f;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgb(0, 0, 0, 0.05) 0 54px 55px, rgb(0, 0, 0, 0.05) 0 -12px 30px,
+    rgb(0, 0, 0, 0.05) 0 4px 6px, rgb(0, 0, 0, 0.05) 0 12px 3px,
+    rgb(0, 0, 0, 0.05) 0 -3px 55px;
+}
+input:focus {
+  outline: none;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  width: 100%;
+  max-width: 650px;
+  position: relative;
+}
+p {
+  color: #4e5b3f;
+}
+.input-container #submit {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  cursor: pointer;
+}
+button {
+  border: solid 0.5px black;
+  background-color: #4e5b3f;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.nav {
+  border-top: solid 1px #4e5b3f;
+  padding: 10px;
+}
+.nav p {
+  font-size: 13px;
+  color: #4e5b3f;
+}
+.history {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.history p {
+  cursor: pointer;
+}
